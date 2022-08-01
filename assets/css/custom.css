@@ -1,0 +1,211 @@
+@import "./_colors.css";
+@import "./_fonts.css";
+
+body {
+  font-family: var(--font-regular);
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+/* background */
+.bg-main {
+  background-color: var(--bg-primary);
+}
+
+.bg-main50 {
+  background-color: var(--color-primary50);
+}
+
+.login-button {
+  background-color: var(--color-accent50);
+  font-size: 16px;
+  padding: 16px 28px;
+  color: var(--color-accent);
+  transition: 0.3s ease-in;
+}
+
+.login-button:hover {
+  background-color: var(--color-accent);
+  color: white;
+}
+
+.btn-primary {
+  background-color: var(--color-primary) !important;
+  font-size: 16px;
+  padding: 16px 28px !important;
+}
+
+.detail-button {
+  border-radius: 12px 12px 24px 24px;
+  color: var(--text-dark) !important;
+  font-family: var(--font-semiBold);
+  height: 72px;
+  background-color: white !important;
+  border: none;
+  transition: 0.3s ease;
+}
+
+.restourant-button {
+  width: 36px;
+  height: 36px;
+  background-color: var(--color-primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+}
+
+.search-box {
+  margin-right: 20px;
+  width: 322px;
+  padding-left: 16px;
+  background-color: white;
+  font-family: var(--font-medium);
+  color: var(--text-tertiary);
+}
+
+.search-box > input {
+  padding: 16px 5px;
+}
+
+/* utility */
+.rounded-12 {
+  border-radius: 12px;
+}
+
+.rounded-24 {
+  border-radius: 24px;
+}
+
+.g-20 {
+  gap: 30px;
+}
+
+.g-30 {
+  gap: 30px;
+}
+
+.mt-34 {
+  margin-top: 34px;
+}
+
+.mt-35 {
+  margin-top: 35px;
+}
+
+.mt-41 {
+  margin-top: 41px;
+}
+
+.mt-54 {
+  margin-top: 54px;
+}
+
+.mt-56 {
+  margin-top: 56px;
+}
+
+.mt-60 {
+  margin-top: 60px;
+}
+
+.mt-120 {
+  margin-top: 120px;
+}
+
+.mb-6 {
+  margin-bottom: 6px;
+}
+
+.mb-12 {
+  margin-bottom: 6px;
+}
+
+.size-80 {
+  width: 80px;
+  height: 80px;
+}
+
+/* typography */
+.site-name {
+  font-family: var(--font-primary);
+  font-size: 28px;
+  color: var(--text-dark);
+}
+
+.text-accent {
+  color: var(--color-accent);
+}
+
+.text-primary {
+  color: var(--color-primary) !important;
+}
+
+.text-rating {
+  color: var(--color-rating) !important;
+}
+
+.text-secondary {
+  color: var(--text-secondary) !important;
+}
+
+.text-dark {
+  color: var(--text-dark) !important;
+}
+
+.fw-normal {
+  font-family: var(--font-regular);
+}
+
+.fw-medium {
+  font-family: var(--font-medium);
+}
+
+.fw-semiBold {
+  font-family: var(--font-semiBold);
+}
+
+.section-title {
+  text-transform: uppercase;
+  color: var(--color-accent);
+  font-family: var(--font-medium);
+}
+
+.section-sub-title {
+  text-transform: capitalize;
+  color: var(--text-dark);
+  font-family: var(--font-semiBold);
+}
+
+.card-title {
+  font-size: 18px;
+  font-family: var(--font-semiBold);
+}
+
+/* rewrite component */
+.nav-item .nav-link {
+  color: var(--text-dark) !important;
+  font-family: var(--font-medium);
+}
+
+.grid-gutter-width {
+  width: 20px !important;
+}
+
+/* Card */
+.card-benefit:hover button {
+  background-color: var(--color-primary) !important;
+}
+
+.restourant {
+  height: 415px;
+  position: relative;
+  overflow: hidden;
+}
+
+.restourant-detail {
+  left: 24px;
+  right: 24px;
+  bottom: 33px;
+  min-height: 20px;
+}

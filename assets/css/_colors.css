@@ -1,0 +1,12 @@
+:root {
+  --color-primary: #fdc886;
+  --color-rating: #ffb800;
+  --color-primary50: #fff7ed;
+  --color-accent: #5a4fcf;
+  --color-accent50: rgba(90, 79, 207, 0.1);
+  --bg-primary: #fafafa;
+  --bg-secondary: #f2f2f2;
+  --text-dark: #232631;
+  --text-secondary: #656565;
+  --text-color-tertiary: #858585;
+}

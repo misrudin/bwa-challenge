@@ -1,0 +1,26 @@
+@font-face {
+  font-family: Nunito-ExtraBold;
+  src: url(../fonts/Nunito-ExtraBold.ttf);
+}
+
+@font-face {
+  font-family: Poppins-Regular;
+  src: url(../fonts/Poppins-Regular.ttf);
+}
+
+@font-face {
+  font-family: Poppins-Medium;
+  src: url(../fonts/Poppins-Medium.ttf);
+}
+
+@font-face {
+  font-family: Poppins-SemiBold;
+  src: url(../fonts/Poppins-SemiBold.ttf);
+}
+
+:root {
+  --font-primary: "Nunito-ExtraBold", sans-serif;
+  --font-regular: "Poppins-Regular", sans-serif;
+  --font-medium: "Poppins-Medium", sans-serif;
+  --font-semiBold: "Poppins-SemiBold", sans-serif;
+}
